@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.anelcc.foodrecipe.databinding.RecipeFragmentBinding
 
 class RecipeFragment : Fragment() {
@@ -14,6 +15,7 @@ class RecipeFragment : Fragment() {
     // This property is only valid between onCreateView and
 // onDestroyView.
     private val binding get() = _binding!!
+
 
     companion object {
         fun newInstance() = RecipeFragment()
@@ -34,6 +36,7 @@ class RecipeFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(RecipeViewModel::class.java)
         // TODO: Use the ViewModel
+        viewModel.getData()
     }
 
     override fun onDestroyView() {
