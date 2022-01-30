@@ -16,6 +16,7 @@ class RecipeFragment : Fragment() {
 // onDestroyView.
     private val binding get() = _binding!!
 
+    private lateinit var recipeAdapter: RecipeRecyclerAdapter
 
     companion object {
         fun newInstance() = RecipeFragment()
@@ -37,6 +38,13 @@ class RecipeFragment : Fragment() {
         viewModel = ViewModelProvider(this).get(RecipeViewModel::class.java)
         // TODO: Use the ViewModel
         viewModel.getData()
+
+        binding.recipeList.apply {
+            layoutManager = LinearLayoutManager(context)
+            recipeAdapter = RecipeRecyclerAdapter(viewModel.getData())
+            adapter = recipeAdapter
+        }
+
     }
 
     override fun onDestroyView() {

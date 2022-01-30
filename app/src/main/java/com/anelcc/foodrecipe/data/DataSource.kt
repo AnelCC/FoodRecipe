@@ -49,17 +49,17 @@ class DataSource{
             )
             list.add(
                 Recipe(
-                    "Work Life Balance for Software Developers",
-                    "What kind of hobbies do software developers have? It sounds like many software developers don't have a lot of hobbies and choose to focus on work. Is that a good idea?",
-                    "https://raw.githubusercontent.com/mitchtabian/Kotlin-RecyclerView-Example/json-data-source/app/src/main/res/drawable/work_life_balance.png",
+                    "Beef Stew Recipes",
+                    "Thick, hearty, classic beef stew recipes. Get ideas for the slow cooker or stovetop, with tips and videos on making the perfect stew.",
+                    "https://foodish-api.herokuapp.com/images/burger/burger53.jpg",
                     "By: Kitchen.com"
                 )
             )
             list.add(
                 Recipe(
-                    "Full Stack Web Developer - Nicholas Olsen",
-                    "In this podcast I interviewed the Fullsnack Developer (AKA Nicholas Olsen).\\r\\n\\r\\nNicholas is many things. What I mean by that is, he's good at many things.\\r\\n\\r\\n1. He’s an entrepreneur\\r\\n\\r\\n2. Web developer\\r\\n\\r\\n3. Artist\\r\\n\\r\\n4. Graphic designer\\r\\n\\r\\n5. Musician (drums)\\r\\n\\r\\n6. Professional BodyBuilder.",
-                    "https://raw.githubusercontent.com/mitchtabian/Kotlin-RecyclerView-Example/json-data-source/app/src/main/res/drawable/fullsnack_developer.png",
+                    "Spice up dinners",
+                    "Looking for inspiration on how to spice up dinners? We have compiled this versatile collection of showstopping ",
+                    "https://foodish-api.herokuapp.com/images/rice/rice29.jpg",
                     "By: Cupcakes.com"
                 )
             )
@@ -76,7 +76,7 @@ class DataSource{
                     "Sweetie today...",
                     "Kids will love you all time",
                     "https://foodish-api.herokuapp.com/images/dessert/dessert3.jpg",
-                    "by: mitch"
+                    "by: allrecipes.com"
                 )
             )
             return list
