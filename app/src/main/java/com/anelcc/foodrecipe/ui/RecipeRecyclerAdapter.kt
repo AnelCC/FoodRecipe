@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.anelcc.foodrecipe.R
 import com.anelcc.foodrecipe.data.Recipe
+import com.bumptech.glide.Glide
 
 class RecipeRecyclerAdapter(val recipeList: List<Recipe>) : RecyclerView.Adapter<RecipeRecyclerAdapter.ViewHolder>() {
     private val TAG: String = "RecipeRecyclerAdapter"
@@ -27,6 +28,8 @@ class RecipeRecyclerAdapter(val recipeList: List<Recipe>) : RecyclerView.Adapter
             recipeAuthor?.let {
                 it.text = recipe.description
             }
+
+            Glide.with(itemView.context).load(recipe.url_image).into(recipeImage)
         }
     }
 

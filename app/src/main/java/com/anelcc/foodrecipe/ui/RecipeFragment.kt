@@ -36,7 +36,6 @@ class RecipeFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(RecipeViewModel::class.java)
-        // TODO: Use the ViewModel
         viewModel.getData()
 
         binding.recipeList.apply {
