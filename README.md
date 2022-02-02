@@ -28,7 +28,7 @@ com.anelcc.recipe      # Root Package
 
 <a href="https://github.com/AnelCC/FoodRecipe/raw/main/images/recipe.apk"><img src="https://locations.massageenvy.com/images/google-play-badge.png" width="200"/></a>
 
-<img src="https://github.com/AnelCC/FoodRecipe/blob/main/images/Screenshot_20220221-174222.jpg" width="180" height="300"/><img src="https://github.com/AnelCC/FoodRecipe/blob/main/images/Screenshot_20220221-174348.jpg" width="180" height="300"/><img src="https://github.com/AnelCC/FoodRecipe/blob/main/images/Screenshot_20220221-174406.jpg" width="180" height="300"/>
+<img src="https://github.com/AnelCC/FoodRecipe/blob/main/images/Screenshot_20220221-174222.jpg" width="180" height="300"/> <img src="https://github.com/AnelCC/FoodRecipe/blob/main/images/Screenshot_20220221-174348.jpg" width="180" height="300"/> <img src="https://github.com/AnelCC/FoodRecipe/blob/main/images/Screenshot_20220221-174406.jpg" width="180" height="300"/>
 
 ### Library References
 
