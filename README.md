@@ -1,25 +1,8 @@
-### Android FoodRecipe
-
-
-# Manage Data with Kotlin
-
-Project name: **Monster**
+# Android FoodRecipe
+Project name: **Food Recipe**
 
 ### Android
 Develop in android over MVVM, Kotlin, etc.
-
-
-1. Modeling an entity [Code here](https://github.com/AnelCC/Monster/pull/1)
-0. Reading files from resources and assets [Code here](https://github.com/AnelCC/Monster/pull/1)
-0. Parsing and mapping JSON data [Code here](https://github.com/AnelCC/Monster/pull/2)
-0. Getting data from a web service with Retrofit [Code here](https://github.com/AnelCC/Monster/pull/2)
-0. Creating a RecyclerView to display data [Code here](https://github.com/AnelCC/Monster/pull/3)
-0. Displaying images dynamically with Glide [Code here](https://github.com/AnelCC/Monster/pull/3)
-0. Publishing and data values with LiveData objects [Code here](https://github.com/AnelCC/Monster/pull/4)
-0. Displaying details with data binding [Code here](https://github.com/AnelCC/Monster/pull/4)
-0. Reading and writing files [Code here](https://github.com/AnelCC/Monster/pull/5)
-0. Managing SQLite databases with Room [Code here](https://github.com/AnelCC/Monster/pull/6)
-0. Persisting data in shared preferences [Code here](https://github.com/AnelCC/Monster/pull/7)
 
 
 ### Package Structure
@@ -43,14 +26,11 @@ com.anelcc.recipe      # Root Package
 
 ### Preview 🎉
 
-<a href="https://github.com/AnelCC/Monster/raw/master/moster.apk"><img src="https://locations.massageenvy.com/images/google-play-badge.png" width="200"/></a>
+<a href="https://github.com/AnelCC/FoodRecipe/images/recipe.apk"><img src="https://locations.massageenvy.com/images/google-play-badge.png" width="200"/></a>
 
-<img src="https://raw.githubusercontent.com/AnelCC/Monster/master/image/remoteData.png" width="180" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Monster/master/image/localDataDB.png" width="180" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Monster/master/image/HomaPageWithMenuOptions.png" width="180" height="300"/>
-
-<img src="https://raw.githubusercontent.com/AnelCC/Monster/master/image/settingScreen.png" width="180" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Monster/master/image/SignatureElizabeth.png" width="180" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Monster/master/image/SettingScreenElizabeth.png" width="180" height="300"/>
-
-<img src="https://raw.githubusercontent.com/AnelCC/Monster/master/image/HomePageWithListView.png" width="180" height="300"/>
-
+<img src="https://github.com/AnelCC/FoodRecipe/blob/main/images/Screenshot_20220221-174222.jpg" width="180" height="300"/>
+<img src="https://github.com/AnelCC/FoodRecipe/blob/main/images/Screenshot_20220221-174348.jpg" width="180" height="300"/>
+<img src="https://github.com/AnelCC/FoodRecipe/blob/main/images/Screenshot_20220221-174406.jpg" width="180" height="300"/>
 
 ### Library References
 
