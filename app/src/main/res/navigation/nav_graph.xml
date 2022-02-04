@@ -7,8 +7,20 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.anelcc.foodrecipe.ui.RecipeFragment"
+        android:name="com.anelcc.foodrecipe.ui.recipelist.RecipeFragment"
         android:label="main_fragment"
         tools:layout="@layout/recipe_fragment">
+        <action
+            android:id="@+id/goFromMainFragmentToRecipeDetails"
+            app:destination="@+id/recipeDetails"/>
     </fragment>
+
+    <fragment
+        android:id="@+id/recipeDetails"
+        android:name="com.anelcc.foodrecipe.ui.recipedetails.RecipeDetailFragment"
+        android:label="detail_fragment"
+        tools:layout="@layout/recipe_detail_fragment">
+    </fragment>
+
+
 </navigation>
