@@ -79,6 +79,14 @@ class DataSource{
                     "by: allrecipes.com"
                 )
             )
+            list.add(
+                Recipe(
+                    "Sorry.. Something went wrong",
+                    "Kids will love you all time",
+                    "",
+                    "by: myrecipes.com"
+                )
+            )
             return list
         }
     }
